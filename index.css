@@ -1,6 +1,24 @@
 .calculator-frame {
     display: grid;
-    grid-template-areas: "calc-disp calc-disp calc-disp calc-disp" "btn-1 btn-2 btn-3 btn-add" "btn-4 btn-5 btn-6 btn-sub" "btn-7 btn-8 btn-9 btn-multi" "btn-eval btn-eval btn-0 btn-div"
+    grid-template-areas: "calc-disp calc-disp calc-disp calc-disp" "btn-1 btn-2 btn-3 btn-add" "btn-4 btn-5 btn-6 btn-sub" "btn-7 btn-8 btn-9 btn-multi" "btn-eval btn-eval btn-0 btn-div";
+    gap: 10px;
+    max-width: 200px;
+    font-size: 2.5rem;
+}
+
+.number-btn,
+.action-btn {
+    color: white;
+    height: 40px;
+    font-size: 2rem;
+}
+
+.number-btn {
+    background-color: rgb(39, 36, 36);
+}
+
+.action-btn {
+    background-color: rgb(215, 146, 19);
 }
 
 .calculator-display {
