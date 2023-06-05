@@ -1,0 +1,68 @@
+.calculator-frame {
+    display: grid;
+    grid-template-areas: "calc-disp calc-disp calc-disp calc-disp" "btn-1 btn-2 btn-3 btn-add" "btn-4 btn-5 btn-6 btn-sub" "btn-7 btn-8 btn-9 btn-multi" "btn-eval btn-eval btn-0 btn-div"
+}
+
+.calculator-display {
+    grid-area: calc-disp;
+}
+
+#btn-1 {
+    grid-area: btn-1;
+}
+
+#btn-2 {
+    grid-area: btn-2;
+}
+
+#btn-3 {
+    grid-area: btn-3;
+}
+
+#btn-add {
+    grid-area: btn-add;
+}
+
+#btn-4 {
+    grid-area: btn-4
+}
+
+#btn-5 {
+    grid-area: btn-5
+}
+
+#btn-6 {
+    grid-area: btn-6
+}
+
+#btn-sub {
+    grid-area: btn-sub
+}
+
+#btn-7 {
+    grid-area: btn-7
+}
+
+#btn-8 {
+    grid-area: btn-8
+}
+
+#btn-9 {
+    grid-area: btn-9
+}
+
+#btn-multi {
+    grid-area: btn-multi
+}
+
+#btn-eval {
+    grid-area: btn-eval
+}
+
+#btn-0 {
+    grid-area: btn-0
+}
+
+#btn-div {
+    grid-area: btn-div
+}
